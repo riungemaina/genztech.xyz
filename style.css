@@ -9,10 +9,10 @@ a {
 
 body {
   background-image: url(/genztech_bg_image.jpg);
+  font-family: "body_main", Impact, Charcoal, sans-serif;
   background-size: cover;
   background-color: #111;
   color: aliceblue;
-  font-family: 'body_main';
   margin: 0;
 }
 
@@ -32,16 +32,12 @@ footer {
   height: 60px;
 }
 
-
-
 .tag {
   text-align: center;
   font-size: 40px;
   font-weight: 100;
   letter-spacing: 1px;
 }
-
-
 
 .logo_img {
   display: block;
