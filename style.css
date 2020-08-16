@@ -1,6 +1,52 @@
+@font-face {
+  font-family: body_main;
+  src: url(/resources/Teko-SemiBold.ttf);
+}
+
+a {
+  color: #1f2762;
+}
+
 body {
-    background-image: url(/genztech_bg_image.jpg);
-    background-size: cover;
-    background-color: #111;
-    color: aliceblue;
+  background-image: url(/genztech_bg_image.jpg);
+  background-size: cover;
+  background-color: #111;
+  color: aliceblue;
+  font-family: 'body_main';
+  margin: 0;
+}
+
+footer {
+  width: 100%;
+  background-color: #fed429;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  position: absolute;
+  bottom: 0;
+  color: #111;
+  height: 60px;
+}
+
+
+
+.tag {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+
+
+.logo_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 10%;
 }
