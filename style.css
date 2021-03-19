@@ -1,7 +1,4 @@
-@font-face {
-  font-family: body_main;
-  src: url(/resources/Teko-SemiBold.ttf);
-}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Teko:wght@400;500&display=swap");
 
 a {
   color: #1f2762;
@@ -9,7 +6,7 @@ a {
 
 body {
   background-image: url(/genztech_bg_image.jpg);
-  font-family: "body_main", Impact, Charcoal, sans-serif;
+  font-family: "Teko", Impact, sans-serif;
   background-size: cover;
   background-color: #111;
   color: aliceblue;
@@ -24,19 +21,23 @@ footer {
   justify-content: center;
   align-items: center;
   font-size: 20px;
-  font-weight: 100;
   letter-spacing: 1px;
   position: absolute;
   bottom: 0;
   color: #111;
   height: 60px;
+  font-weight: 500;
 }
 
 .tag {
   text-align: center;
   font-size: 40px;
-  font-weight: 100;
   letter-spacing: 1px;
+  background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  font-weight: 400;
 }
 
 .logo_img {
@@ -45,4 +46,30 @@ footer {
   margin-right: auto;
   width: 50%;
   margin-top: 10%;
+}
+
+.shop {
+  text-align: center;
+  font-size: 1.5em;
+  display: block;
+  color: #fed429;
+  letter-spacing: 1px;
+  background: rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 20px 30px;
+  font-family: "Open Sans Condensed", sans-serif;
+  text-decoration: none;
+  width: 230px;
+  margin: 10px auto;
+}
+
+.mini {
+  font-size: 0.8em;
+  width: 100%;
+  display: block;
+  margin-top: 5px;
 }
