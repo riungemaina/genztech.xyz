@@ -1,92 +1,97 @@
-@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap");
 
 body {
-    background-color: #000;
-    margin: 0;
-    font-family: 'Pathway Gothic One', sans-serif;
-    text-transform: uppercase;
-    font-weight: 100;
-    letter-spacing: 1.5px;
-    color: #fff;
-    font-size: 20px;
+  background-color: #000;
+  margin: 0;
+  font-family: "Pathway Gothic One", sans-serif;
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 1.5px;
+  color: #fff;
+  font-size: 20px;
 }
 
 svg {
-    display: block;
-    margin: auto;
-    margin-top: 40px;
+  display: block;
+  margin: auto;
+  margin-top: 40px;
 }
 
 .wrapper {
-    display: block;
-    width: 80%;
-    margin: auto;
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
 }
 
 p {
-    width: 80%;
-    margin: auto;
-    text-align: justify;
+  width: fit-content;
+  margin: auto;
+  text-align: justify;
 }
 
 p::first-letter {
-    font-size: 200%;
+  font-size: 200%;
 }
 
 .buttons {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 button {
-    border: none;
-    border-radius: 1000px;
-    margin: 10px;
-    padding: 10px 20px 10px 20px;
-    background-color: #f00;
-    font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 22px;
-    color: #fff;
+  border: none;
+  border-radius: 1000px;
+  margin: 10px;
+  padding: 10px 20px 10px 20px;
+  background-color: #fed429;
+  font-family: "Pathway Gothic One", sans-serif;
+  font-size: 22px;
+  color: #000;
 }
 
 button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 button::after {
-    content: attr(data-end);
-    font-family: 'Times New Roman', Times, serif;
+  content: attr(data-end);
+  font-family: "Times New Roman", Times, serif;
 }
 
 @media only screen and (min-width: 426px) {
-    svg {
-        width: 50%;
-    }
+  svg {
+    width: 50%;
+  }
 
-    p {
-        width: 50%;
-    }
+  p {
+    width: fit-content;
+  }
 
-    .wrapper {
-        width: 50%;
-    }
+  .wrapper {
+    width: fit-content;
+  }
 
-    svg {
-        margin-top: 100px;
-    }
+  svg {
+    margin-top: 100px;
+  }
 }
 
 @media only screen and (min-width: 1025px) {
-    p {
-        width: 40%;
-        text-align: center;
-    }
+  p {
+    width: fit-content;
+    text-align: center;
+  }
 
-    .wrapper {
-        width: 40%;
-    }
+  .wrapper {
+    width: fit-content;
+  }
+}
+
+.body-wrap {
+  background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
 }
